@@ -6,6 +6,6 @@ This Github Repository contains a demonstration of Starfield using Java Script p
 # Demonstration 
 ![Demonstration of Starfield](https://media.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif)
 
-ICS4U 2020~2021 (Mr.Osudar)
-Coding Challenge Summmative
-Jason Huo, Mahdi Bouakline
+#### ICS4U 2020~2021 (Mr.Osudar)
+#### Coding Challenge Summmative
+#### Jason Huo, Mahdi Bouakline

@@ -1,0 +1,33 @@
+function Star() {
+  this.x = random(-width, width);
+  this.y = random(-height, height);
+  this.z = random(0, width);
+
+  this.update = function(){
+    this.z = this.z - speed;
+    
+    if (this.z < 1) {
+        this.x = random(-width, width);
+		this.y = random(-height, height);
+		this.z = random(0, width);
+    }
+
+  }
+ } 
+
+
+<script src="Star.js"></script>
+
+function draw() {
+  speed = map(mouseX, 0, width, 0, 30);
+  
+  background(0);
+  
+  translate(width/2, height/2);
+  
+  for (var i = 0; i < stars.length; i++) {
+    stars[i].update();
+    stars[i].show();
+  }
+  
+}
